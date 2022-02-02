@@ -15,11 +15,11 @@ def add_num(picPath,num):
     xSize, ySize = img.size
     fontsize = ySize // 6
     position = xSize - fontsize - 75
-    myfont = ImageFont.truetype('D:\\pythonproject\\study\00\\YouSheBiaoTiHei-2.ttf',fontsize)
+    myfont = ImageFont.truetype('D:\\pythonproject\\study\\00\\YouSheBiaoTiHei-2.ttf',fontsize)
     ImageDraw.Draw(img).text((position,0), str(num), font=myfont, fill='red')
-    img.save('D:\\pythonproject\\study\00\\icon_with_num.jpg')
+    img.save('D:\\pythonproject\\study\\00\\icon_with_num.jpg')
 
 if __name__ == '__main__':
-    picPath = 'D:\\pythonproject\\study\00\\heidan.jpg'
+    picPath = 'D:\\pythonproject\\study\\00\\heidan.jpg'
     num = 99
     add_num(picPath,num)
