@@ -18,7 +18,7 @@ def thumbnail_pic(path):
         im.thumbnail((640, 400))
         print(im.format, im.size, im.mode)
         # im.save(name, 'JPEG', path='D:\\pythonproject\\study\\05\\out')
-        im.save(path + '/out/' + filename)
+        im.save(filepath + '/out/' + filename)
     print('Done!')
 
 
