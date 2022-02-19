@@ -8,7 +8,7 @@ import re
 
 
 def key_words(path):
-    a = glob.glob(f'{path}\*.txt')  # './pic/*.jpg'的方式可以只提取指定路径下的文件
+    a = glob.glob(f'{path}/*.txt')
     #print(a)
     wordlist = []
     for x in a:
