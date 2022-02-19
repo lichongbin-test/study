@@ -9,14 +9,14 @@ import re
 
 def key_words(path):
     a = glob.glob(f'{path}\*.txt')  # './pic/*.jpg'的方式可以只提取指定路径下的文件
-    print(a)
+    #print(a)
     wordlist = []
     for x in a:
         f = open(x, 'r').read()
         words = re.findall(r'[a-zA-Z0-9]+', f)
         for y in words:
             wordlist.append(y)
-        print(wordlist)
+        #print(wordlist)
         most_num = Counter(wordlist).most_common(3)
         print(f"文件{x}中的高频词top3：", most_num)
 
