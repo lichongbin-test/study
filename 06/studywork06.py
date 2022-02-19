@@ -6,7 +6,6 @@ import glob
 from collections import Counter
 import re
 
-
 def key_words(path):
     a = glob.glob(f'{path}/*.txt')
     #print(a)
