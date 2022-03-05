@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding:utf-8 -*-
-# **第 0009 题：**使用 Python 生成类似于图中的字母验证码图片。
+# **第 0010 题：**使用 Python 生成类似于图中的字母验证码图片。
 
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 import random
